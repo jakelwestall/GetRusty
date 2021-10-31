@@ -11,6 +11,8 @@ fn main() {
     counter();
 
     println!("The value of y is {}.", y);
+
+    conditional_loop();
 }
 
 fn basic_if_else(x: u32) -> bool {
@@ -66,4 +68,15 @@ fn loop_return() -> u32 {
     };
 
     result
+}
+
+fn conditional_loop() {
+    let mut n = 3;
+
+    while n != 0 {
+        println!("{}!", n);
+        n -= 1;
+    }
+
+    println!("LIFT OFF!!");
 }
