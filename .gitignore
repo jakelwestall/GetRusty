@@ -5,3 +5,5 @@ datatypes_ex/target
 functions_ex/target
 control_flow_ex/target
 gtk_ex/target
+file_manipulation_ex/target
+file_manipulation_ex/test_file.txt
